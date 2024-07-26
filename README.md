@@ -24,9 +24,6 @@ docker run -d -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=taskdb --name mysq
 
 ### Running app
 ```
-mvn install
-```
-```
 mvn spring-boot:run
 ```
 
